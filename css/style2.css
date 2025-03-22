@@ -1,0 +1,69 @@
+p {
+    color: #a52a2a;
+    text-align: center;
+    
+    line-height: 30px;
+ 
+}
+  h1 
+  {
+    text-align: center;
+    color: red;
+    font-family: georgia;
+  }
+
+   h3 {
+    color: black;
+    text-align: center;
+   }
+
+   a {
+    color: rgb(00,255, 00);
+    text-decoration: none;
+   }
+
+   button {
+    background-color: white;
+    color: blueviolet;
+   }
+
+   textarea {
+    color: #000;
+   }
+
+   span {
+    text-decoration: underline;
+   }
+
+   #mainTopic {
+    color: blue;
+   }
+   * {
+    text-align: center;
+   }
+   h1, h3, h5 {
+    font-style: Georgia;
+   }
+
+   .content {
+    background-color: cornflowerblue;
+    color: white;
+   }
+
+   div button {
+    background-color: purple;
+    color: azure;
+   }
+   button:hover {
+    background-color: yellow;
+    color: blue;
+   }
+   .content:nth-of-type(2n+1) {
+    color: yellow;
+   }
+   h1::first-letter {
+    color: red;
+   }
+   #yes:checked + label {
+    color: darkgreen;
+   }
